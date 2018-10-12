@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="da">
+<!--Language set to English. Change to da for Danish if needed-->
+
+<head>
+    <meta charset="UTF-8">
+    <!--This ensures that the browser can read special signs and characters like the Danish letters æ, ø, å -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <!--This helps avoid that a site displays differently with different screen resolutions -->
+
+    <title>ArkAar</title>
+    <!--This title will be the heading on google search and on the tab in the browser. Can contain up to 70 characters-->
+    <meta name="description" content="Here you add the description of your content">
+    <!-- this is for search engne optimization - fill in description of the page content. This will usually be the text shown under the heading in a search. Can contain up to 155 characters-->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <!--This is a link to the stylesheet. Any rule written in the stylesheet will be used for this page -->
+</head>
+
+<body id="forside">
+    <!-- Navigation -->
+    <header>
+        <section id="logo-hvid">
+            <a id="logo" href="index.html"><img src="images/logo-hvid.png" alt="logo"></a>
+            <label for="toggle">&#9776;</label>
+        </section>
+        <nav>
+            <input type="checkbox" id="toggle" class="hidden">
+            <!-- This has to be outside of #logo-burger to work. #main-nav cannot be selected when this is in a container -->
+            <ul id="main-nav">
+                <li><a href="arkitektur.html">arkitektur
+                <br>i aarhus</a></li>
+                <div class="vl"></div>
+                <li><a href="aarhus-oe.html">aarhus
+                <br>ø</a></li>
+                <div class="vl"></div>
+                <li><a href="kendetegnende.html">kendetegnende
+                <br>arkitektur</a></li>
+                <div class="vl"></div>
+                <li><a href="gammel.html">gammel
+                <br>arkitektur</a></li>
+                <div class="vl"></div>
+                <li><a href="galleri.html">galleri
+                <br>arkitekur</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
